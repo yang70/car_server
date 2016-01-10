@@ -12,7 +12,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'pry-rails'
 
 group :development, :test do
-  gem 'byebug'
   gem 'rspec-rails'
 end
 
