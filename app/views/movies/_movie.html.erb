@@ -1,0 +1,21 @@
+<% if movie.link %>
+  <a href="<%= asset_path movie.link %>">
+    <div class="col-md-4 movie-container">
+      <% if movie.poster_link %>
+        <%= image_tag movie.poster_link, class: "movie-poster" %>
+      <% else %>
+        <h1><%= movie.title %></h1>
+      <% end %>
+    </div>
+  </a>
+<% else %>
+  <a href="#">
+    <div class="col-md-4 movie-container">
+      <% if movie.poster_link %>
+        <%= image_tag movie.poster_link, class: "movie-poster" %>
+      <% else %>
+        <h1><%= movie.title %></h1>
+      <% end %>
+    </div>
+  </a>
+<% end %>

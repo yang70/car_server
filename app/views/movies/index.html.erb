@@ -1,6 +1,7 @@
+<div class="col-md-12">
 <h1>Movies</h1>
-<ul>
-  <% @movies.each do |movie| %>
-    <li><%= movie.title %></li>
-  <% end %>
-</ul>
+<% @movies.each do |movie| %>
+  <%= render movie %>
+<% end %>
+<hr />
+</div>

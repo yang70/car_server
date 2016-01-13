@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# ignore video files
+/app/assets/videos/*
