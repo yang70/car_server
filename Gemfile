@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'pry-rails'
 gem 'coveralls', require: false
+gem 'unicorn'
+gem 'rack-handlers'
 
 group :development, :test do
   gem 'rspec-rails'
