@@ -1,5 +1,5 @@
 <% if movie.link %>
-  <a href="<%= asset_path movie.link %>">
+  <a href="<%= movie_path movie %>">
     <div class="col-md-4 movie-container">
       <% if movie.poster_link %>
         <%= image_tag movie.poster_link, class: "movie-poster" %>

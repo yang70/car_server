@@ -18,3 +18,4 @@
 
 # ignore video files
 /app/assets/videos/*
+/public/videos/*
