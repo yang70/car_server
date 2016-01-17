@@ -20,3 +20,4 @@ This project is my attempt to create a media server for my car that serves video
 
 ## Configuration
 * [Creating wifi hotspot with Raspberry Pi](https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software)
+* [Allow outside connections when running `rails server`](http://stackoverflow.com/questions/7325663/access-webrick-rails-from-another-computer-on-local-network)
