@@ -18,7 +18,7 @@
 
 # ignore video files
 /app/assets/videos/*
-/public/videos/*
+/public
 
 # ignore coveralls
 /coverage/*
