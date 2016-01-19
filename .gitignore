@@ -22,3 +22,7 @@
 
 # ignore coveralls
 /coverage/*
+
+# ignore image files
+/app/assets/images/*
+
