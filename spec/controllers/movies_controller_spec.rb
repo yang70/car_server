@@ -14,7 +14,7 @@ RSpec.describe MoviesController, type: :controller do
     end
 
     it "loads all of the movies into @movies" do
-      movie1, movie2 = Movie.create!(title: "Movie One"), Movie.create!(title: "Movie Two")
+      movie1, movie2 = Movie.create!(title: "Movie One", year: "2015"), Movie.create!(title: "Movie Two", year: "2015")
       get :index
       expect(assigns(:movies)).to match_array([movie1, movie2])
     end
