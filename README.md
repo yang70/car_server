@@ -16,7 +16,7 @@ This project is my attempt to create a media server for my car that serves video
 
 ## Software
 * [Raspbian - Jessie](https://www.raspberrypi.org/downloads/raspbian/)
-* [Ruby on Rails](http://rubyonrails.org/)(OK maybe overkill, but I love Rails!)
+* [Ruby on Rails](http://rubyonrails.org/)
 
 ## Configuration
 * [Creating wifi hotspot with Raspberry Pi](https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software)
